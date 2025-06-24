@@ -10,7 +10,7 @@ const VideoPlayer = () => {
       onMouseLeave={() => setShowControls(false)}
     >
       <iframe
-        src="https://yandex.ru/video/preview/10999763909714755023"
+        src="https://yandex.ru/video/preview/7548887151231436014"
         className="w-full h-full border-0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
