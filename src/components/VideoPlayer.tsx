@@ -5,7 +5,7 @@ const VideoPlayer = () => {
 
   return (
     <div
-      className="fixed inset-0 bg-black flex items-center justify-center"
+      className="w-full aspect-video bg-black flex items-center justify-center rounded-lg overflow-hidden"
       onMouseEnter={() => setShowControls(true)}
       onMouseLeave={() => setShowControls(false)}
     >
