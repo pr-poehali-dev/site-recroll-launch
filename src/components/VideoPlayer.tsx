@@ -10,11 +10,11 @@ const VideoPlayer = () => {
       onMouseLeave={() => setShowControls(false)}
     >
       <iframe
-        src="https://yandex.ru/video/preview/7548887151231436014"
+        src="https://vk.com/video_ext.php?oid=-39916533&id=456243915&hd=2"
         className="w-full h-full border-0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        title="Yandex Video Player"
+        title="VK Video Player"
       />
 
       {/* Overlay info */}
@@ -23,10 +23,10 @@ const VideoPlayer = () => {
           showControls ? "opacity-100" : "opacity-0"
         }`}
       >
-        <h3 className="font-bold mb-2">Видео с Яндекс.Видео</h3>
+        <h3 className="font-bold mb-2">Видео с VK</h3>
         <p className="text-sm">
-          Видео встроено с платформы Яндекс.Видео. Управление воспроизведением
-          осуществляется через встроенный плеер.
+          Видео встроено с платформы VK. Управление воспроизведением
+          осуществляется через встроенный плеер VK.
         </p>
       </div>
     </div>
